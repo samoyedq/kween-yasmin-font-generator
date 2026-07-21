@@ -46,7 +46,7 @@ export default function FirstPage() {
           </div>
 
           <div className="hero-copy">
-            <p className="intro">MAKE IT LOUD. MAKE IT CUTE.</p>
+            <p className="intro">SI TROY TUYOR MAHAL KO!</p>
 
             <h1>
               Kween Yasmin<br />
@@ -64,10 +64,10 @@ export default function FirstPage() {
       <section className="tester-card" id="tester">
         <div className="tester-heading">
           <div>
-            <p className="tester-kicker">TRY THE FONT</p>
+            <p className="tester-kicker">TRY MO NA SI KWEEN</p>
             <h2>
               Type your<br />
-              main character line.
+              main kween line.
             </h2>
           </div>
 
