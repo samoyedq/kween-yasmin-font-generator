@@ -19,7 +19,7 @@ export default function FirstPage() {
     <main className="font-page">
       <header className="font-header">
         <a className="brand" href="/">
-          <span className="brand-dot" />
+         
           KWEEN YASMIN
         </a>
 
@@ -71,7 +71,7 @@ export default function FirstPage() {
             </h2>
           </div>
 
-          <span className="tester-sticker">A–Z</span>
+    
         </div>
 
         <label className="text-label" htmlFor="font-text">
