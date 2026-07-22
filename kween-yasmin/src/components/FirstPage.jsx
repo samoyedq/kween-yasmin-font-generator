@@ -24,7 +24,6 @@ export default function FirstPage() {
         </a>
 
         <nav className="nav-links">
-          <a href="#tester">Try It!</a>
           <a href="#about">About</a>
         </nav>
 
@@ -49,13 +48,16 @@ export default function FirstPage() {
             <p className="intro">SI TROY TUYOR MAHAL KO!</p>
 
             <h1>
-              Kween Yasmin<br />
+              <div className="text-flex">
+                <h1>   Kween </h1>
+                <h1 className="pink-text">   Yasmin</h1>
+              </div>
+              
               <span>Font Generator</span>
             </h1>
 
             <p className="description">
-              Type anything below and see how it looks in your own little type
-              world.
+              Baka kween yasmin yarn hahahhhahhhahaah!
             </p>
           </div>
         </div>
@@ -158,8 +160,8 @@ export default function FirstPage() {
       </section>
 
       <footer id="about">
-        <span>DESIGNED FOR BIG FEELINGS</span>
-        <span>© 2026</span>
+        <span></span>
+        <span></span>
       </footer>
     </main>
   )

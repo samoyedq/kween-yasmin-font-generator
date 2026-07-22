@@ -21,6 +21,15 @@ textarea {
   font: inherit;
 }
 
+.text-flex{
+  display:flex;
+  gap: 13px;
+}
+
+.text-flex .pink-text{
+  color:#ff01e1;
+}
+
 .font-page {
   display: flex;
   flex-direction: column;
@@ -113,16 +122,23 @@ textarea {
 }
 
 .nav-button:hover {
-  background: #d8ff55;
-  color: #241f31;
-  transform: rotate(-2deg);
+  /* background: #d8ff55; */
+  color: #f1f1f1;
+  transform: rotate(-8deg);
+    background: linear-gradient(
+    105deg,
+    #0abdc8 0%,
+    #0dabc9 35%,
+    #3159e8 65%,
+    #8b20ed 100%
+  );
 }
 
-/* HERO */
+
 
 .hero {
   width: 100%;
-  padding: clamp(35px, 6vw, 75px) 20px;
+  padding: 20px
 }
 
 .hero-container {
@@ -163,7 +179,7 @@ textarea {
     position: absolute;
     z-index: 2;
     top: 24px;
-    left: 13px;
+    left: -5px;
     padding: 7px 10px;
     background: #241f31;
     color: white;
@@ -173,8 +189,6 @@ textarea {
     white-space: nowrap;
 
 }
-
-
 
 .hero-copy {
   width: min(100%, 530px);
@@ -198,7 +212,7 @@ textarea {
 }
 
 .hero-copy h1 span {
-  color: #7d55d9;
+  color: #4e07f3;
   font-style: italic;
 }
 
@@ -209,7 +223,7 @@ textarea {
   line-height: 1.55;
 }
 
-/* FONT GENERATOR */
+
 
 .tester-card {
   width: min(100% - 40px, 900px);
@@ -218,7 +232,7 @@ textarea {
   border: 2px solid #241f31;
   border-radius: 28px 8px 28px 8px;
   background: #e7dcff;
-  box-shadow: 8px 8px 0 #ff9dc5;
+  /* box-shadow: 8px 8px 0 #ff9dc5; */
 }
 
 .tester-heading {
@@ -412,8 +426,6 @@ footer {
   font-weight: 700;
   letter-spacing: 0.08em;
 }
-
-/* MOBILE */
 
 @media (max-width: 650px) {
   .nav-links {
